@@ -11,7 +11,7 @@ class Controller {
     }
 
     healthCheck = asyncHandler((req: Request, res: Response) => {
-        res.status(200).json({status: true, message: "this is a health check !"})
+        res.status(200).json({status: true, message: "this is a health check !!!"})
     })
 
     storeNewUser = asyncHandler(async (req: Request, res: Response): Promise<any> => {
